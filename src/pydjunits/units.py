@@ -68,7 +68,7 @@ __all__ = [
     "Frequency",
     "Illuminance",
     "Length",
-    "LinearDensity"
+    "LinearDensity",
     "LuminousFlux",
     "LuminousIntensity",
     "MagneticFlux",
@@ -83,7 +83,7 @@ __all__ = [
     "Temperature",
     "Torque",
     "Volume",
-    ] # type: ignore
+    ]
 
 logging.basicConfig(level=logging.CRITICAL,
                     format='%(levelname)s: %(module)s.%(funcName)s: %(message)s')
